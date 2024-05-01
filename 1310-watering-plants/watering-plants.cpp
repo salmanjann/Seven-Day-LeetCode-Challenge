@@ -1,7 +1,7 @@
 class Solution {
 public:
     int wateringPlants(vector<int>& plants, int capacity) {
-        long long steps = 0;
+        int steps = 0;
         int water = capacity;
         for (int i = 0; i < plants.size(); i++) {
             steps++;
