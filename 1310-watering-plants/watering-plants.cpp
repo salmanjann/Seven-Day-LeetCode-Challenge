@@ -7,7 +7,7 @@ public:
             steps++;
             water -= plants[i];
             if (i + 1 < plants.size() && water < plants[i + 1]) {
-                // refill the water 
+                // refill the water from river
                 steps = steps + (2 * (i+1));
                 water = capacity;
             }
